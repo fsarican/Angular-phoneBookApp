@@ -1,0 +1,25 @@
+<div class="tel-yazi" >TELEFON<button class="dots" ></button></div>
+
+  <div class="num">
+    <input type="text" class="input-num" id="input-num" (input)="onSearchChange($event.target)">
+    <a class="plus" *ngIf="isShow" [routerLink]="['/registry-page']" routerLinkActive="router-link-active" ></a>
+  </div>
+
+  <div class="sayi"><button class="tus" id="tus" (click)="clickEvent($event)" (click)="clickEvent2()">1</button></div>
+  <div class="sayi"><button class="tus" (click)="clickEvent($event)" >2</button></div>
+  <div class="sayi"><button class="tus" (click)="clickEvent($event)">3</button></div>
+  <div class="sayi"><button class="tus" (click)="clickEvent($event)">4</button></div>
+  <div class="sayi"><button class="tus" (click)="clickEvent($event)">5</button></div>
+  <div class="sayi"><button class="tus" (click)="clickEvent($event)">6</button></div>
+  <div class="sayi"><button class="tus" (click)="clickEvent($event)">7</button></div>
+  <div class="sayi"><button class="tus" (click)="clickEvent($event)">8</button></div>
+  <div class="sayi"><button class="tus" (click)="clickEvent($event)">9</button></div>
+  <div class="sayi"><button class="tus" style="font-size: 30px; padding: 20px;" (click)="clickEvent($event)">*</button></div>
+  <div class="sayi"><button class="tus" (click)="clickEvent($event)">0</button></div>
+  <div class="sayi"><button class="tus" (click)="clickEvent($event)">#</button></div>
+
+  <div class="garama"><a class="gara"></a></div>
+  <div class="arama"><a class="ara"></a></div>
+  <div class="silme"><a class="sil"></a></div>
+
+

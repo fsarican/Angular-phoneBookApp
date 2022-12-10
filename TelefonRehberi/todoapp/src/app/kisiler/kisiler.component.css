@@ -1,0 +1,90 @@
+
+.tel-yazi2{
+  height: 35px;
+  width: 390px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  background-color:#dcdcdc;
+  /* border: 2px solid red; */
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image:url();
+  background-repeat: no-repeat;
+  background-position-x: 300px;
+  background-size: 30px 30px;
+}
+.dots{
+  margin-right: 8px;
+  float: right;
+  background:url(../resimler/bnokta.jpg);
+  background-size:100% 100% ;
+  background-repeat: no-repeat;
+  border-block-end-style: none;
+  background-color:#dcdcdc;
+  border-color: #dcdcdc;
+  height: 30px;
+  width: 30px;
+}
+.dots:hover{
+  background-size: 80% 80%;
+  }
+
+
+input[type=text] {
+  margin-left: 60px;
+  width: 25px;
+  height: 25px;
+  font-size: large;
+  background-color:#dcdcdc;
+  border: none;
+  padding-left: 30px;
+  background-image: url(../resimler/find.png);
+  background-repeat: no-repeat;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+  border-bottom: 4px solid red;
+  width: 150px;
+}
+
+table{
+  width: 300px;
+  margin: 50px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  border-bottom: none;
+  position: absolute;
+  z-index: 0;
+}
+
+.regist{
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid gray;
+  background-color: white;
+  text-align: left;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  float: left;
+  margin-top: 0.3px;
+}
+.delete{
+  width: 20px; height: 20px;
+  float: right;
+  background-image:url(../resimler/delete-icon.png);
+  border: none;
+  background-size: 20px 20px;
+  background-color: white;
+  background-repeat: no-repeat;
+  border-radius: 20px 20px;
+}
+.delete:hover{background-size: 90% 90%;}
+
+
+
+

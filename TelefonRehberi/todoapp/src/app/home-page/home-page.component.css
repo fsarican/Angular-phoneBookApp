@@ -1,0 +1,125 @@
+.tel-yazi{
+  height: 35px;
+  width: 390px;
+  font-family: 'Gill Sans';
+  font-weight: bolder;
+  background-color:#dcdcdc;
+  /* border: 2px solid red; */
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.dots{
+  margin-right: 8px;
+  float: right;
+  background:url(../resimler/bnokta.jpg);
+  background-size:100% 100% ;
+  background-repeat: no-repeat;
+  border-block-end-style: none;
+  background-color: #dcdcdc;
+  border-color: #dcdcdc;
+  border-right: none;
+  height: 30px;
+  width: 30px;
+}
+.dots:hover{
+  background-size: 80% 80%;
+  }
+
+.num{
+  margin-top: 193px;
+  height: 70px;
+  width: 400px;
+  background-color: white;
+  /* border: 2px solid red; */
+}
+.input-num{
+  margin: 10px;
+  width: 300px;
+  height: 50px;
+  font-size: x-large;
+  background-color: white;
+  border: none;
+}
+.plus{
+  margin: 8px;
+  width: 50px;
+  height: 50px;
+  float: right;
+  background-image: url(../resimler/plusicon.png);
+  border: none;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+.plus:hover{ background-size: 90% 90%;}
+
+.sayi{
+  margin-top: -10px;
+  height: 50px;
+  width: 32%;
+  text-align: center;
+  float:left;
+  padding-top: 20px;
+
+}
+
+.tus{
+  margin-top: -10px;
+  background-color: white;
+  border-color: white;
+  width: 145px;
+  height: 70px;
+  border-block-end-style: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.tus:link{text-decoration: none;}
+.tus:hover{ font-size: 15px;}
+
+.garama{
+  margin-top: 10px;
+  height: 50px;
+  width: 33%;
+  float:left;
+  background:url(../resimler/garama.png) ;
+  background-color: white;
+  background-size:50px 50px ;
+  background-repeat: no-repeat;
+  background-position-x:45px ;
+  /* border: 1px solid black; */
+
+}
+.garama:hover{background-size: 35px 35px; background-position-x:50px;}
+
+.arama{
+  margin-top: 10px;
+  height: 50px;
+  width: 33%;
+  float:left;
+  background:url(../resimler/arama.png) ;
+  background-color: white;
+  background-size:50px 50px ;
+  background-repeat: no-repeat;
+  background-position: 45px;
+  /* border: 2px solid green; */
+}
+.arama:hover{background-size: 35px 35px; background-position-x:50px;}
+
+.silme{
+  margin-top: 10px;
+  height: 50px;
+  width: 33%;
+  float:left;
+  background:url(../resimler/silme-icon.jpg);
+  background-color: white;
+  background-size:50px 50px ;
+  background-repeat: no-repeat;
+  background-position: 40px;
+  /* border: 1px solid black; */
+}
+.silme:hover{background-size: 35px 35px; background-position-x:50px;}
+
+

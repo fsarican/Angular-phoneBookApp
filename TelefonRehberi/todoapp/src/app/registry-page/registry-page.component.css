@@ -1,0 +1,98 @@
+/* mat-form-field{
+  display: block;
+  }
+button{
+  margin-right: 15px;
+} */
+.buttons{
+  width: 401px;
+  height: 70px;
+  margin-top:-0.5px;
+  background-color:#dcdcdc;
+  border: none;
+  border-bottom: 2px grey;
+  border-radius: 8px 8px 0px 0px;
+}
+.iptal{
+  background-color: #e8e8e8;
+  border-color: #dcdcdc;
+  border-right: none;
+  border-radius: 8px 0px 0px 0px;
+  color: orangered;
+  width: 200px;
+  height: 70px;
+  border-block-end-style: none;
+  font-size: 14px;
+  font-weight: bolder;
+  padding-top: 30px;
+}
+.kaydet{
+  background-color: #e8e8e8;
+  border-color: #dcdcdc;
+  border-radius: 0px 8px 0px 0px;
+  color: orangered;
+  width: 201px;
+  height: 70px;
+  border-block-end-style: none;
+  font-size: 14px;
+  font-weight: bolder;
+  padding-top: 30px;
+}
+
+.image{
+  width: 401px;
+  height: 150px;
+  background-color: #f2f2f2;
+  background-image: url(../resimler/image.png);
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: 150px 20px;
+}
+
+.inputs{
+  width: 401px;
+  height: 400px;
+  background-color: #f2f2f2;
+}
+.name{
+  height: 25px;
+  border: none;
+  margin-left: 85px;
+  margin-top: 80px;
+  border-bottom: 2px solid red;
+  background-color: #f2f2f2;
+}
+.surname{
+  height: 25px;
+  border: none;
+  margin-left: 53px;
+  margin-top: 110px;
+  border-bottom: 2px solid red;
+  background-color: #f2f2f2;
+}
+.number{
+  height: 25px;
+  border: none;
+  margin-left: 50px;
+  margin-top: 140px;
+  border-bottom: 2px solid red;
+  background-color: #f2f2f2;
+}
+.nname{
+  height: 25px;
+  width: 370px;
+  margin-left: 30px;
+  background-color: #f2f2f2;
+}
+.nsurname{
+  height: 25px;
+  width: 370px;
+  margin-left: 30px;
+  background-color: #f2f2f2;
+}
+.nnumber{
+  height: 25px;
+  width: 370px;
+  margin-left: 30px;
+  background-color: #f2f2f2;
+}

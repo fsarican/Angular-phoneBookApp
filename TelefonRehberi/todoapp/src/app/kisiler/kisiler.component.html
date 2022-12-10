@@ -1,0 +1,15 @@
+<div class="tel-yazi2" >TELEFON
+  <input type="text" type="text" #input [(ngModel)]="searchTerm">
+  <button class="dots" ></button>
+</div>
+<table>
+  <tr  *ngFor="let reg of regList | regFilter:searchTerm">
+    <button class="regist">{{reg.kisiAd}}    &nbsp;       {{reg.kisiSoyad}}
+      <button class="delete" (click)='deleteRegistry(reg)' (click)="updateRegistry(reg,input.value)"></button>
+    </button>
+  </tr>
+</table>
+
+
+
+

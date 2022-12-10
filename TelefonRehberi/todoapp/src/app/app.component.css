@@ -1,0 +1,98 @@
+.b-bg{
+  background-color: #f2f2f2;
+  height: 680px;
+  width: 400px;
+  margin-left: 550px;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  flex-direction: column;
+
+ }
+
+.k-bg{
+  height: 610px;
+  width: 400px;
+  float: left;
+  background-color: #f2f2f2;
+  /* border: 2px solid yellow; */
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.gecis{
+  height:40px ;
+  width: 400px;
+  /* border: 1px solid rgb(255, 0, 225); */
+  border-radius:10px 0px 10px 0px;
+}
+
+.tuslar{
+height: 50px;
+width: 133px;
+float:left;
+text-align: center;
+font-weight: bolder;
+padding-top: 20px;
+color: gray;
+background-color:#dcdcdc;
+border-radius: 0px 0px 00px 10px;
+text-decoration: none;
+/* border: 1px solid black; */
+}
+.tuslar:focus-within{
+color: 	#00FF00;
+text-decoration: dotted;
+}
+.tuslar:hover{
+font-size: 15px;
+}
+
+.kayit{
+height: 50px;
+width: 134px;
+/* border: 2px solid red; */
+float:left;
+text-align: center;
+font-weight: bolder;
+padding-top: 20px;
+color: gray;
+background-color:#dcdcdc;
+}
+.kayit:focus-within{
+  color: 	#00FF00;
+  text-decoration-style: dotted;
+  }
+.kayit:link{
+text-decoration: none;
+color: gray;
+}
+.kayit:hover{
+font-size: 15px;
+}
+
+.kisiler{
+height: 50px;
+width: 133px;
+/* border: 2px solid red; */
+float:left;
+font-weight: bolder;
+text-align: center;
+padding-top: 20px;
+color: gray;
+background-color:#dcdcdc;
+border-radius: 0px 0px 10px 0px;
+}
+.kisiler:focus-within{
+  color: 	#00FF00;
+  text-decoration: dotted;
+  }
+.kisiler:link{
+text-decoration: none;
+color: gray;
+}
+.kisiler:hover{
+font-size: 15px;
+}
+
+
+
